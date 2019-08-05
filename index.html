@@ -15,21 +15,32 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/bubble_chart.css">
+
 
 		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 		<link rel="stylesheet" type="text/css" href="css/slides.css" />
 		<link rel="stylesheet" type="text/css" href="css/zoomable_sunburst.css" />
 		<link rel="stylesheet" type="text/css" href="css/linechart.css" />
 		<link rel="stylesheet" type="text/css" href="css/annotations.css" />
-
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/bubble_chart.css">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
 
 		<!-- Load D3 -->
-		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+	<!-- import d3.v3 -->
+	<script type="text/javascript" src="js/d3.v3.js"></script>
+
+	<!-- import fullPage -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<!-- import d3.v4 -->
+	<script type="text/javascript" src="js/d3.min.js"></script>
+	<script type="text/javascript" src="js/d3-annotation.min.js"></script>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -121,7 +132,9 @@
 					<h3>Deep Dive into Yelp Academic Dataset</h3>
 					<p>
 						<small>By: Mayank Chhablani (mchhab2@illinois.edu)</a></small>
+						
 					</p>
+					<p><small>**** Please view only in Internet Explorer (IE) ****</a></small></p>
 				</section>
                 <section>
                     <section>
@@ -216,8 +229,7 @@
 						<div id="zsb_title"><h4>Top 25 Most Reviewed Restaurants</h4></div>
 						<div id="zsb_content">
 							<!-- <div id="zsb_text">
-								<p>​When the categories are consolidated into the Top 24 + Others, we can see that American New is the most reviewed restaurant 
-									category. The spread between states do not seem to affect the ranking of restaurant categories either.</p>
+								
 							</div> -->
 							<div id="zsb_container">
 								<div id="zoomable_sunburst"></div>
@@ -246,7 +258,7 @@
                 </section>
                 <section>
                     <div style="cursor: pointer;"><img src="images/GitHub_Logo.png" style="border: none; background:none; box-shadow:none;"></div>
-                    <a href=>Source Code</a>
+                    <a href="https://github.com/mayankchhablani/mayankchhablani.github.io">Source Code</a>
 
                 </section>
 
