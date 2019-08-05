@@ -41,7 +41,6 @@ const zoom_annotations = [
     type: d3.annotationLabel,
     note: {
     title: "Nevada Region",
-    //label: "Top 25 most reviewed is mostly clustered around NV as shown by the outer ring with the same location",
     wrap: 190
     },
     x: 300,
@@ -53,7 +52,6 @@ const zoom_annotations = [
     type: d3.annotationLabel,
     note: {
     title: "Category: American (New) restaurant ",
-    //label: "American (New) restaurant category is the most reviewed restaurant category aggregated across all reviews",
     wrap: 190
     },
     x: 650,
@@ -65,7 +63,6 @@ const zoom_annotations = [
     type: d3.annotationLabel,
     note: {
     title: "Others Ranked 25",
-    //label: "Collection of other categories ranked 25 and onwards",
     wrap: 190
     },
     x: 700,
